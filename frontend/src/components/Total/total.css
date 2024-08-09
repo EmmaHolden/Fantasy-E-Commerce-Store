@@ -1,0 +1,5 @@
+.total {
+    display: flex;
+    font-size: x-large;
+    justify-content: flex-end;
+}
