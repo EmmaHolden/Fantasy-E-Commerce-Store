@@ -1,0 +1,27 @@
+.order-received-order-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 6px var(--greenColour);
+    flex: 0.5;
+    text-align: center;
+    padding: 1%;
+    height: 100%;
+}
+
+.items-in-order-list {
+    overflow-y: scroll;
+}
+
+.items-in-order-list::-webkit-scrollbar-thumb {
+    background:#50ff6c;
+    border-style:solid;
+}
+
+.items-in-order-list::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+}
+
+.items-in-order-list::-webkit-scrollbar {
+    background-color: var(--whiteColour);
+}

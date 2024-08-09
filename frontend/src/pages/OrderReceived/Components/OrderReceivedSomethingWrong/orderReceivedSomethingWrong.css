@@ -1,0 +1,12 @@
+.order-received-something-wrong {
+    display: flex;
+    flex-direction: column;
+    background-image: repeating-radial-gradient(var(--blackColour), #0F0F0F);
+    color: var(--whiteColour);
+    border: solid 3px var(--greenColour);
+    margin: 2%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
