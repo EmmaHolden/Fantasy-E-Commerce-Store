@@ -1,0 +1,29 @@
+.item-information-main-container {
+    background-image: repeating-radial-gradient(var(--blackColour), #0F0F0F);
+    color: var(--whiteColour);
+    border: solid 3px var(--greenColour);
+    margin: 1%;
+    padding: 1%;
+}
+
+.item-information-title-container {
+    text-align: center;
+    font-size: x-large;
+}
+
+.item-information-heading {
+    border-bottom: solid 3px var(--greenColour);
+    
+}
+
+.item-information-top-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.item-information-image {
+    background-color: var(--sandyColour);
+    height: 300px;
+}

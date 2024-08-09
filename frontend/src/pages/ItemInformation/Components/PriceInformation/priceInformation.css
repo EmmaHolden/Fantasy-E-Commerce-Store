@@ -1,0 +1,15 @@
+.price-information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+
+.price-information-green-text {
+    color: var(--greenColour);
+}
+
+.price-information-strikethrough-red {
+    color: red;
+    text-decoration-line: line-through;
+}

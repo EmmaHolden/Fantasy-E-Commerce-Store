@@ -1,0 +1,13 @@
+.item-reviews-card {
+    margin: 0 1%;
+    padding: 1%;
+    padding-bottom: 0;
+}
+
+.item-reviews-container {
+    overflow-y: scroll;
+    height: 400px;
+    border-top: solid 3px var(--greenColour)
+
+}
+

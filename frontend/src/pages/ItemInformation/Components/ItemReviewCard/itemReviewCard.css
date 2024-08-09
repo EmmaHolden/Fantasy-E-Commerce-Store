@@ -1,0 +1,26 @@
+.item-review-container {
+    display: flex;
+    padding: 1%;
+    padding-right: 6%;
+    border-bottom: solid 3px var(--greenColour);
+}
+
+.item-review-torch {
+    width: 10%;
+    margin: 3%;
+}
+
+.item-review-text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.5%;
+}
+
+.item-review-username-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
