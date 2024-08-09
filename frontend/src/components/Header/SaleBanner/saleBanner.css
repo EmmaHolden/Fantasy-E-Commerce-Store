@@ -1,0 +1,97 @@
+.sale-banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: repeating-radial-gradient(var(--blackColour), var(--blackColour));
+    color: var(--whiteColour);
+    flex: 0.8;
+}
+
+.middle-container {
+    text-align: center;
+}
+
+.offer-container {
+    color: var(--greenColour);
+}
+
+@media (max-width: 399px) {
+
+    .sale-banner-container h2 {
+        font-size: xx-small;
+    }
+
+    .sale-banner-container img {
+        display: none;
+    }
+
+    .left-image {
+        height: 5vh;
+    }
+    
+    .right-image {
+        width: 2.5vw;
+    }
+
+    .middle-container {
+        font-size: xx-small;
+    
+    }
+
+}
+
+
+@media (min-width: 400px) and (max-width: 749px) {
+
+    .left-image {
+        height: 10vh;
+    }
+    
+    .right-image {
+        width: 5vw;
+    }
+
+    .middle-container {
+        font-size: x-small;
+    
+    }
+
+}
+
+
+@media (min-width: 750px){
+
+    .left-image {
+        height: 15vh;
+    }
+    
+    .right-image {
+        width: 7.5vw;
+    }
+
+    .middle-container {
+        font-size: medium;
+    
+    }
+
+
+}
+
+
+
+@media (min-width: 1000px) {
+
+    .left-image {
+        height: 20vh;
+    }
+    
+    .right-image {
+        width: 10vw;
+    }
+
+    .middle-container {
+        font-size: large;
+    
+    }
+
+}

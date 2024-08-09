@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: repeating-radial-gradient(var(--blackColour), var(--blackColour));
+    color: var(--whiteColour);
+    border: solid 0.2vw var(--greenColour);
+    text-align: center;
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.labels {
+    color: var(--greenColour);
+    font-weight: bolder;
+}

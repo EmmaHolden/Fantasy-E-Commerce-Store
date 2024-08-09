@@ -1,0 +1,22 @@
+.cart-button-container {
+    margin: 1%;
+    position: relative;
+    font-size: x-large;
+}
+
+.cart-button {
+    width: 6.5vw;
+}
+
+
+.number-items-in-cart {
+    position: absolute;
+    bottom: -25%;
+    right: -10%;
+    border-radius: 100px;
+    background-color: var(--greenColour);
+    width: 2.5vw;
+    height: 5vh;
+    border: solid 0.2vw var(--whiteColour);
+    text-align: center;
+}
