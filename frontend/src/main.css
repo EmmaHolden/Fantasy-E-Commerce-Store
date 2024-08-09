@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake&display=swap');
+
+:root {
+  --whiteColour: #F1E9D2;
+  --sandyColour: #e1d2c0;
+  --darkWhiteColour: #fae9d4;
+  --blackColour: #0e1111;   
+  --greenColour: #50ff6c;
+  --purpleColour: #242155;
+  --darkPurpleColour: #040309;
+}
+
+body {
+  font-family: "Eagle Lake";
+  background-image: url("../public/images/background.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+a {
+  all: unset;
+  cursor: pointer;    
+}
+
+.link {
+  text-decoration: underline;
+  font-weight: bold;
+  color: var(--greenColour);
+}
+
+.gold-coin {
+  width: 20px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
