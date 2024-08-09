@@ -1,0 +1,28 @@
+.filter-input-with-button {
+    font-family: "Eagle Lake";
+    display: flex;
+    padding: 0.6%;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: large;
+    margin: 1%;
+    border-radius: 70px;
+}
+
+.filter-input-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+input {
+    font-family: "Eagle Lake";
+    font-size: large;
+    margin-left: 10px;
+    width: 300px;
+    background-image: repeating-radial-gradient(var(--blackColour), var(--darkPurpleColour));
+    border: solid 0.2vw var(--whiteColour);
+    color: var(--whiteColour);
+    padding: 2%;
+    
+}

@@ -1,0 +1,23 @@
+.filter-buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+
+.stock-page-container {
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    
+}
+
+.options-buttons-container {
+    display: flex;
+    margin-left: 3%;
+    margin-top: 0.3%;
+    background-color: var(--black);
+    border-radius: 4px;
+    z-index: 3;
+    max-height: 160px;
+}
