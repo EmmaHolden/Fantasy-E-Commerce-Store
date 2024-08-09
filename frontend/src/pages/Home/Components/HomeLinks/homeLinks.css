@@ -1,0 +1,99 @@
+@media (max-width: 399px) {
+    .home-category-card {font-size: x-small;}
+    .home-links-title-container {font-size: medium;}
+    .home-category-image {display: none;}
+    .home-category-card-container {width: 80%;}
+    .home-links-container {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 749px) {
+    .home-category-card {
+        font-size: small;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .home-links-title-container {font-size: medium;}
+    .home-category-image {width: 30%;}
+    .home-category-card-container {width: 80%;}
+    .home-links-container {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+
+@media (min-width: 750px){
+    .home-category-card {font-size: medium;}
+    .home-links-title-container {font-size: large;}
+    .home-category-image {width: 90%;}
+    .home-category-card-container {width: 40%;}
+    .home-links-container {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+
+@media (min-width: 1000px) {
+    .home-category-card {font-size: large;}
+    .home-links-title-container {font-size: x-large;}
+    .home-category-image {width: 90%;}
+    .home-category-card-container {width: 30%;}
+    .home-links-container {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+}
+
+.home-links-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3%;
+    background-image: repeating-radial-gradient(var(--blackColour), #010616);
+    border: solid 0.2vw var(--greenColour);
+    color: var(--whiteColour);
+}
+
+
+.home-search-button-image {width: 15%;}
+
+.home-all-category-container {
+    display: flex;
+    justify-content: center;
+}
+
+.home-category-card {
+    text-align: center;  
+    padding: 0.2%;
+    background-image: repeating-radial-gradient(var(--blackColour), #010616);
+    border: solid 0.2vw var(--greenColour);
+    color: var(--whiteColour);
+    width: 100%;
+}
+
+.home-category-card:hover {
+    text-align: center;  
+    padding: 0.2%;
+    background-image: repeating-radial-gradient(var(--greenColour), var(--greenColour));
+    border: solid 0.2vw var(--greenColour);
+    color: var(--blackColour);
+}
+
+.home-category-links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home-links-title-container {
+    padding: 0;
+    padding-left: 3%;
+}
+
+.home-category-card-container {margin: 0.6%;}

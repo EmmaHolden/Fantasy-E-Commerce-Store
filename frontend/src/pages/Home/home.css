@@ -1,0 +1,19 @@
+.home-main-container {
+    display: flex;
+    margin: 1%;
+  }
+
+@media (max-width: 599px) {
+    .home-main-container {flex-direction: column;}
+    .home-right-container {width: 100%;}
+}
+  
+@media (min-width: 600px) {
+    .home-main-container {display: flex;}
+
+    .home-right-container {
+    margin-left: 1%;
+    width: 50%;}
+
+}
+  
