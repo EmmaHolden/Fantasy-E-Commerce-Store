@@ -1,0 +1,7 @@
+.button-group-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+
+}

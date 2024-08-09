@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake&display=swap');
+
+  button {
+    font-family: "Eagle Lake";
+    width: 7.8vw;
+    padding: 0.5%;
+    font-size: large;
+    border-radius: 4px;
+    background-image: repeating-radial-gradient(var(--blackColour), var(--darkPurpleColour));
+    border: solid 0.2vw var(--whiteColour);
+    color: var(--whiteColour);
+  }
+  
+  button:hover {
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: solid 0.2vw var(--blackColour);
+    color: var(--blackColour);
+    background-image: repeating-radial-gradient(var(--greenColour), var(--greenColour));
+  }
+  
+  button:disabled, button:disabled:hover {
+    cursor: default;
+    background-image: repeating-radial-gradient(darkgrey, darkgrey);
+    color: var(--darkWhiteColour);
+    border: solid 0.2vw var(--darkWhiteColour);
+    opacity: 0.7;
+  }
+  
+  .button-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: x-large;
+  }
+
+  .button-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    font-size: x-large;
+  }
+
+  .button-delete-all {
+    font-size: x-large;
+    width: 200px;
+  }
+
+  .button-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: x-large;
+  }
+
+  .button-filter {
+    border-radius: 70px;
+    min-width: 170px;
+    padding: 5px;
+  }
+
+  .button-filter:hover {
+    transition-duration: 0.2s;
+  }
+
+  .button-options {
+    border: none;
+    border-radius: 0px;
+    border: 1px solid white;
+    min-width: 170px;
+    padding: 3px;
+}
+
+.button-options:hover {
+  transition-duration: 0.2s;
+}
+  
+.button-news {
+  padding: 0;
+}
+
+.button-clear {
+  width: 40px;
+  padding: 15%;
+  margin-left: 15px;
+  font-size: medium;
+}
+
+.button-clear:hover {
+  transition-duration: 0.1s;
+}
+  
+.button-return-products {
+  background-image: repeating-radial-gradient(var(--blackColour), var(--blackColour));
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: x-large;
+  border: none;
+}
+
+.button-search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  margin: 1vw;
+  font-size: 3.3vw;
+  border: solid 0.2vw var(--greenColour);
+}
+
+.button-checkout {
+  font-size: xx-large;
+  width: 500px;
+  height: 100px;
+  animation: flash 3s;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 399px) {
+  .button-news {
+    font-size: xx-small;
+    width: 100%;
+  } 
+}
+
+@media (min-width: 400px) {
+  .button-news {
+    font-size: x-small;
+  } 
+}
+
+@media (min-width: 750px) {
+  .button-news {
+    font-size: small;
+  } 
+}
+
+@media (min-width: 1000px) {
+  .button-news {
+    font-size: medium;
+  } 
+}
+
+@keyframes flash {
+  25% {box-shadow: 0px 0px 30px 10px var(--greenColour);}
+  50% {box-shadow: 0px 0px 30px 10px var(--greenColour);}
+}
