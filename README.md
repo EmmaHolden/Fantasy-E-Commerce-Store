@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Bilger's Bazaar - Fantasy E-Commerce Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://bilgers-bazaar.davems.net/
 
-## Available Scripts
+## What it is
+Bilger's Bazaar is a full stack web application. It is a medieval/fantasy themed e-commerce store, where users can browse items, add them to their cart, read information and reviews about each item and checkout. It also contains advertisements, a noticeboard, filters and an about us section. 
 
-In the project directory, you can run:
+## Running the app
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+Simply clone the project and run npm i to install node modules.   
+A mongo db connection string is required in the .env file. If you would like to run the app with your own database, you can see the schema expected for the stock items inside backend/models.js. Images for each stock item are stores in the public images folder and these correspond to the id of their item.  
+CD into the backend folder and run 'npm run dev'.  
+CD into the frontend folder and run 'npm start' to run the app in development mode.   
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
 
-### `npm start`
+## Development of the app
+During development of the app I gained knowledge of component-driven development and how to reuse Javascript components in React. 
+I gained an understanding of using context providers and managing state, especially when developing the cart which needed to be a single source of truth which was accessible throughout the application.  
+For the cart, I used local storage to keep the cart alive between sessions to mock how it would work if it was a real-world project which would store orders inside of a database. Meanwhile, I stored the stock items inside a MongoDB database and learned how to use API calls to connect to it from the frontend to get and edit stock. I reduced stock when the user checked out, which meant some items would go out of stock over time.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots of Bilger's Bazaar
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/user-attachments/assets/196a99b8-fa5a-4972-91ad-f15e57ae771a)
+![image](https://github.com/user-attachments/assets/92129aed-31d7-4875-ac1b-17ddf47513ad)
+![image](https://github.com/user-attachments/assets/340caa78-9c17-4f10-9c99-54b04d7b2bd3)
+![image](https://github.com/user-attachments/assets/ff634f3f-5267-4ab6-8a20-c15a0f6594e2)
+![image](https://github.com/user-attachments/assets/d6f6b5ca-1903-43dc-8adb-df276c9c0a30)
