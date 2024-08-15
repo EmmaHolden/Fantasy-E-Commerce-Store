@@ -21,8 +21,9 @@ For the cart, I used local storage to keep the cart alive between sessions to mo
 
 ## Screenshots of Bilger's Bazaar
 
-![image](https://github.com/user-attachments/assets/196a99b8-fa5a-4972-91ad-f15e57ae771a)
-![image](https://github.com/user-attachments/assets/92129aed-31d7-4875-ac1b-17ddf47513ad)
-![image](https://github.com/user-attachments/assets/340caa78-9c17-4f10-9c99-54b04d7b2bd3)
-![image](https://github.com/user-attachments/assets/ff634f3f-5267-4ab6-8a20-c15a0f6594e2)
-![image](https://github.com/user-attachments/assets/d6f6b5ca-1903-43dc-8adb-df276c9c0a30)
+![image](https://github.com/user-attachments/assets/d2a4148f-0c32-4ac3-b6ac-d5937d66e9ae)
+![image](https://github.com/user-attachments/assets/34621c46-a22b-44b5-a7d3-e9fe29852159)
+![image](https://github.com/user-attachments/assets/bfa92ddb-5961-425c-ba82-d817f806b208)
+![image](https://github.com/user-attachments/assets/a48f4d57-dc40-4d53-a144-e310054caec6)
+![image](https://github.com/user-attachments/assets/4834b20f-1921-4f1d-93f8-7cbcd45f9fd9)
+![image](https://github.com/user-attachments/assets/36500e62-56be-4420-81a7-96495be8487e)
